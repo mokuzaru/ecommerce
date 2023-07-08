@@ -17,7 +17,7 @@ const Create = () => {
   const etherBalance = useEtherBalance(account);
 
   useEffect(()=>{
-    activateBrowserWallet();
+    //activateBrowserWallet();
   },[])
 
   return (

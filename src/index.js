@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -19,7 +18,6 @@ ReactDOM.render(
         <Route path="/create" element={<DAppProvider><Create /></DAppProvider>} />
         <Route path="/explore" element={<DAppProvider config={{}}><Explore /></DAppProvider>} />
         <Route path="/detail" element={<DAppProvider config={{}}><NFTDetail /></DAppProvider>} />
-
       </Routes>
     </BrowserRouter>,
   document.getElementById("root")

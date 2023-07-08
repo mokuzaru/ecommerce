@@ -13,7 +13,7 @@ const Home = () => {
     <div id="home">
       <Hero list={hotDropsData} />
 
-      <p id="card-list-header-text"> Blumer NFT's </p>
+      <p id="card-list-header-text"> Deustodia Store </p>
       <div id="list-container">
         <CardList list={hotDropsData} />
       </div>
