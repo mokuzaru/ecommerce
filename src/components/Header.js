@@ -8,21 +8,21 @@ const Header = () => {
     const etherBalance = useEtherBalance(account);
 
     const handleWallet = () => {
-      activateBrowserWallet();
+      //activateBrowserWallet();
 
     }
 
     return (
         <div id="header">
-        <Link to='/' id='logo'>MetaStore</Link>
+        <Link to='/' id='logo'>DeuStore</Link>
 
         <div id="link-containers">
-          <a>Start Hunting</a>
-          <a>Dark NFTs</a>
-          <a>Community</a>
-          <a>Craft NFT</a>
+          <a>Electronica</a>
+          <a>Modulos</a>
+          <a>Especiales</a>
+          <a>Miscelania</a>
 
-          <button id="connect-wallet" onClick={handleWallet} >{!account ? 'Connect Wallet' : account}</button>
+          <button id="connect-wallet" onClick={handleWallet} >{!account ? 'Usuario no conectado' : account}</button>
         </div>
       </div>
     );
