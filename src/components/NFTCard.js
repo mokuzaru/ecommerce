@@ -44,12 +44,12 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient, onClic
         </ColorExtractor></>}
         <div className="wrapper">
           <div className="info-container">
-            <p className="owner"> LEJOURN.DARK.NFT</p>
-            <p className="name">Alien Cry</p>
+            <p className="owner"> Deustodia</p>
+            <p className="name">Componente #</p>
           </div>
 
           <div className="price-container">
-            <p className="price-label">Price</p>
+            <p className="price-label">Precio</p>
             <p className="price">
               {" "}
               <FaEthereum /> 4.555

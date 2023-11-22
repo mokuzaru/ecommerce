@@ -1,5 +1,5 @@
 body {
-  background-color: #100f17;
+  background-color: #1e00e4;
 }
 
 #home {
@@ -31,4 +31,8 @@ a {
   align-items: center;
   justify-content:center;
   margin-bottom: 100px;
+}
+
+#list-container .content{
+  padding: 0 5%;
 }

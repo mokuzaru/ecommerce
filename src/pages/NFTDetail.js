@@ -76,7 +76,7 @@ const NFTDetail = () => {
                     child={
                       <div id="button-child">
                         <FaEthereum size="28px" />
-                        <p id="price">1254</p>
+                        <p id="price">1234</p>
                       </div>
                     }
                   ></Button>
@@ -98,7 +98,7 @@ const NFTDetail = () => {
                         />
                       )}
                     </button>
-                    <p className="like-count">123</p>
+                    <p className="like-count">987</p>
                   </div>
                 </div>
               </div>
